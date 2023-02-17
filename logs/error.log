@@ -1,0 +1,258 @@
+error: Label🏷️: Feb-16-2023 18:26:44: Error : Passsword not macth,Request : /api/login,stack:Error: Passsword not macth
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error: Label🏷️: Feb-17-2023 09:43:44: Error : Passsword not macth,Request : /api/login,stack:Error: Passsword not macth
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error: Label🏷️: Feb-17-2023 09:46:03: Error : Passsword not macth,Request : /api/login,stack:Error: Passsword not macth
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error: Label🏷️: Feb-17-2023 09:46:47: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 09:48:43: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 09:53:39: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 10:42:12: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:29:21)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 10:43:27: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:29:21)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 10:44:31: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:29:21)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 10:45:07: Error : Only admin can access,Request : /api/user,stack:Error: Only admin can access
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:30:19)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 10:45:27: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:29:21)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 10:53:08: Error : Only admin can access,Request : /api/user,stack:Error: Only admin can access
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:30:19)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\abc\Task-App\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:513:28)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+error:  Feb-17-2023 11:24:55: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:20:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:26:21: Error : Cannot read properties of undefined (reading 'role'),Request : /api/user,stack:TypeError: Cannot read properties of undefined (reading 'role')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:22:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:27:40: Error : You are a user,Request : /api/user,stack:Error: You are a user
+    at C:\Users\abc\Task-App\src\middleware\auth.js:30:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:32:17: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:32:56: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:33:39: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:34:01: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:35:43: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:41:11: Error : admin is not defined,Request : /api/user,stack:ReferenceError: admin is not defined
+    at C:\Users\abc\Task-App\src\middleware\auth.js:23:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:41:25: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:42:46: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:43:12: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:46:53: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:47:20: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:27:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:50:40: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:51:28: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:54:58: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:55:17: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:56:00: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:56:29: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:56:43: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:56:56: Error : admin is not defined,Request : /api/user,stack:ReferenceError: admin is not defined
+    at C:\Users\abc\Task-App\src\middleware\auth.js:24:79
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:57:09: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:57:31: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 11:57:50: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 12:03:55: Error : Access Denied!!,Request : /api/user,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:28:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 12:16:07: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:16:25: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:20:02: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:20:20: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:22:06: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:22:41: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 12:23:05: Error : Passsword not match,Request : /api/login,stack:Error: Passsword not match
+    at Login (C:\Users\abc\Task-App\src\controller\userController.js:14:23)
+error:  Feb-17-2023 13:12:06: Error : Cannot read properties of undefined (reading 'replace'),Request : /api/user/delete/63edef4bee088383d23e9dc8,stack:TypeError: Cannot read properties of undefined (reading 'replace')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:20:54
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:280:10)
+error:  Feb-17-2023 13:13:44: Error : Cannot read properties of undefined (reading 'replace'),Request : /api/user/delete/63edef4bee088383d23e9dc8,stack:TypeError: Cannot read properties of undefined (reading 'replace')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:20:54
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:280:10)
+error:  Feb-17-2023 13:14:40: Error : Cannot read properties of undefined (reading 'replace'),Request : /api/user/delete/63edef4bee088383d23e9dc8,stack:TypeError: Cannot read properties of undefined (reading 'replace')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:20:54
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:280:10)
+error:  Feb-17-2023 13:15:27: Error : Cannot read properties of undefined (reading 'replace'),Request : /api/user/delete/63edef4bee088383d23e9dc8,stack:TypeError: Cannot read properties of undefined (reading 'replace')
+    at C:\Users\abc\Task-App\src\middleware\auth.js:20:54
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\index.js:280:10)
+error:  Feb-17-2023 13:18:58: Error : Data not deleted ,Request : /api/user/delete/63edef4bee088383d23e9dc8,stack:Error: Data not deleted 
+    at deleteUser (C:\Users\abc\Task-App\src\controller\userController.js:104:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:26:48: Error : Access Denied!!,Request : /api/user/get,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:38:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:27:17: Error : Access Denied!!,Request : /api/user/get,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:38:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:28:14: Error : Access Denied!!,Request : /api/user/get,stack:Error: Access Denied!!
+    at C:\Users\abc\Task-App\src\middleware\auth.js:44:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:28:43: Error : Access Denied!! user,Request : /api/user/get,stack:Error: Access Denied!! user
+    at C:\Users\abc\Task-App\src\middleware\auth.js:44:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:33:32: Error : Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle,Request : /api/user/get,stack:TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\abc\Task-App\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\abc\Task-App\node_modules\express\lib\response.js:271:14)
+    at getUser (C:\Users\abc\Task-App\src\controller\userController.js:124:29)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\abc\Task-App\src\middleware\auth.js:43:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-17-2023 13:34:12: Error : Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle,Request : /api/user/get,stack:TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\abc\Task-App\node_modules\express\lib\response.js:1150:12)
+    at ServerResponse.json (C:\Users\abc\Task-App\node_modules\express\lib\response.js:271:14)
+    at ServerResponse.send (C:\Users\abc\Task-App\node_modules\express\lib\response.js:162:21)
+    at getUser (C:\Users\abc\Task-App\src\controller\userController.js:124:29)
+    at Layer.handle [as handle_request] (C:\Users\abc\Task-App\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\abc\Task-App\src\middleware\auth.js:43:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
