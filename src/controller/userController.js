@@ -1,7 +1,8 @@
 const user = require("../models/user")
 var XLSX = require('xlsx')
 const path = require("path")
-const {sendWelcomeEmail} = require("../utils/sendMail")
+const {sendWelcomeEmail,sendurl} = require("../utils/sendMail")
+const uploadFile = require("../utils/upload_file_s3")
 const Login = async (req, res, next) => {
     const { email, password } = req.body
     try {
@@ -57,11 +58,13 @@ const createUser = async (req, res, next) => {
                 }
             }
         }))
-        // console.log(xlData);
         const ws = XLSX.utils.json_to_sheet(xlData)
         const wb = XLSX.utils.book_new()
-        XLSX.utils.book_append_sheet(wb, ws, 'Responses')
-        XLSX.writeFile(wb, directory)
+        const no = XLSX.utils.book_append_sheet(wb, ws, 'Responses')
+        const newFile = XLSX.write(wb, { type: 'buffer', bookType: 'xlsx' })
+        uploadFile(newFile,req.user.email)
+        
+        // console.log(newFile);
         return res.status(201).json({
             data: xlData
         })

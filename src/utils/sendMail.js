@@ -19,7 +19,27 @@ const sendWelcomeEmail = (email,name) => {
       })
 }
 
+const sendurl = (email,url) => {
+    const msg = {
+        to: email,
+        from: 'samipan.b@antino.io',
+        subject: 'Your excel file url',
+        text: "your url is ",
+        html:`You url is <a href=${url}>click here to download</a>`
+    }
+    return sgMail
+    .send(msg)
+    .then(() => {
+        console.log('Email sent')
+        return true;
+    })
+    .catch((error) => {
+        console.log(error);
+        return false;
+      })
+}
+
 
 module.exports = {
-    sendWelcomeEmail,
+    sendWelcomeEmail,sendurl
 }

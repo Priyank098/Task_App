@@ -15,6 +15,7 @@ const auth = (url, method) => {
                 }) 
             if (user.role === "Admin") {
                 if (adminRoles.some(admin => admin.method === method && admin.url === url )) {
+                    req.user = user;
                     next()
                 } else {
                     throw new Error("Access Denied!!", {

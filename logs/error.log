@@ -256,3 +256,34 @@ error:  Feb-17-2023 13:34:12: Error : Converting circular structure to JSON
     at next (C:\Users\abc\Task-App\node_modules\express\lib\router\route.js:144:13)
     at C:\Users\abc\Task-App\src\middleware\auth.js:43:21
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 13:32:00: Error : The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at Object.readFile (node:fs:408:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:13:8)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:65:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 13:56:05: Error : The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at Object.readFile (node:fs:408:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:13:8)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:65:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 13:59:19: Error : The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at Object.readFile (node:fs:408:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:13:8)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:63:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 14:11:41: Error : The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Object
+    at Object.readFile (node:fs:408:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:14:8)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:64:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 14:23:27: Error : The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 00 00 00 00 00 00 00 00 a4 01 84 b8 b5 02 00 00 b5 02 00 00 1a 00 00 00 78 6c 2f 5f 72 65 6c 73 2f 77 ...,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_VALUE]: The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 00 00 00 00 00 00 00 00 a4 01 84 b8 b5 02 00 00 b5 02 00 00 1a 00 00 00 78 6c 2f 5f 72 65 6c 73 2f 77 ...
+    at Object.readFile (node:fs:408:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:14:8)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:67:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+error:  Feb-20-2023 14:26:15: Error : The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 00 00 00 00 00 00 00 00 a4 01 84 b8 b5 02 00 00 b5 02 00 00 1a 00 00 00 78 6c 2f 5f 72 65 6c 73 2f 77 ...,Request : /api/user,stack:TypeError [ERR_INVALID_ARG_VALUE]: The argument 'path' must be a string or Uint8Array without null bytes. Received <Buffer 50 4b 03 04 14 00 00 00 00 00 00 00 00 00 a4 01 84 b8 b5 02 00 00 b5 02 00 00 1a 00 00 00 78 6c 2f 5f 72 65 6c 73 2f 77 ...
+    at new ReadStream (node:internal/fs/streams:171:5)
+    at Object.createReadStream (node:fs:2935:10)
+    at uploadFile (C:\Users\abc\Task-App\src\controller\upload_file_s3.js:19:20)
+    at createUser (C:\Users\abc\Task-App\src\controller\userController.js:67:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

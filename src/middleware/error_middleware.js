@@ -1,6 +1,4 @@
 const dashLogger = require("../logger");
-const time = new Date();
-
 
 const error_middleware = (err, req, res, next) => {
   dashLogger.error(`Error : ${err.message},Request : ${req.originalUrl},stack:${err.stack}`);
