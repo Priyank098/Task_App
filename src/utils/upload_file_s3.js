@@ -3,8 +3,8 @@ const AWS = require('aws-sdk');
 const {sendurl} = require("./sendMail")
 
 const s3 = new AWS.S3({
-    accessKeyId: 'AKIA3XN4RXKPFRU44QP2',
-    secretAccessKey: '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'
+    accessKeyId: process.env.S3_ACCESS_KEY,
+    secretAccessKey: process.env.S3_SECRET_KEY
 });
 // const fileName = './ExcelFile/excel.xlsx';
 // const fileName = './dummy_data/excel3.xlsx';
